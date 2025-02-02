@@ -1,0 +1,106 @@
+# my-portfolio
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5500/page1.html" class="logo">portfolio</a>
+        <ul>
+            <li class="active"><a href="http://127.0.0.1:5500/page1.html">Home</a></li>
+            <li><a href="#downabout">About</a></li>
+            <li><a href="http://127.0.0.1:5500/cv.html" target="blank">Resume</a></li>
+            <li><a href="xyz">CV</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <div class="home-info">
+            <h1 id="name">Ravi Raushan Kumar</h1>
+            <h2>I'm a
+                <span data-text="Web Devloper">Web Devloper</span>
+                <span data-text="Frontend Devloper">Frontend Devloper</span>
+                <span data-text="UX Designer">UX Designer</span>
+            </h2>
+            <div class="btn-sci">
+                <a href="cv2.png" class="btn" download>Download CV</a>
+                <div class="sci">
+                    <a href="xyz"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a
+                        href="https://www.linkedin.com/in/ravi-raushan-kumar-a61109292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="xyz"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="xyz"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="photo.png" id="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="downabout">
+        <h1 class="about">About</h1>
+        <p id="aboutmore">Motivated and detail-oriented BTech CSE second-year student with a solid understanding of
+            computer science
+            fundamentals. Proficient in Python ,C++,DSA using C and C programming, with experience in front-end web
+            development using
+            HTML, CSS,Java Script and React JS. Strong problem-solving abilities and a passion for learning new
+            technologies. Seeking
+            opportunities to apply academic knowledge in practical settings and contribute to innovative projects in the
+            field of technology.</p>
+    </div>
+    <div id="certificate">
+        <h1 class="certi">
+            Certificate
+        </h1>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div id="projects">
+        <h1 class="certi">Projects</h1>
+
+    </div>
+
+    <div id="contact-container">
+        <h1 id="con">Contact Support !</h1>
+        <form action="submit_support_request.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="issue">Describe your issue:</label>
+            <textarea id="issue" name="issue" rows="5" placeholder="Describe your issue or question"
+                required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
+
